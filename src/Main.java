@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int[] sales = new int[]{1, 5, 10, 6, 4};
+        long[] sales = new long[]{100, 5000, 10000, 60000, 40000};
         SalesManager salesManager = new SalesManager(sales);
-        int max = salesManager.max();
+        long max = salesManager.max();
         System.out.println(max);
 
     }
