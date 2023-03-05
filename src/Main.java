@@ -1,14 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int[] sales = new int[]{1, 5, 10, 6, 4};
+        long[] sales = new long[]{100, 5000, 1000, 6000, 40000};
         SalesManager salesManager = new SalesManager(sales);
-        int max = salesManager.max();
-        int min = salesManager.min();
-        int averege = salesManager.average();
+
+        long min = salesManager.min();
+        long average = salesManager.average();
+        long max = salesManager.max();
 
         System.out.println(max);
         System.out.println(min);
-        System.out.println(averege);
+        System.out.println(average);
 
     }
 }
